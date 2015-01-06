@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+  * MageProfis_ShowAddressField
+  *
+  * @category  MageProfis
+  * @package   MageProfis_ShowAddressField
+  * @author    Mathis Klooss <mathis.klooss@mage-profis.de>
+  * @copyright 2015 Loewenstark Web-Solution GmbH (http://www.mage-profis.de). All rights served.
+  */
+//-->
+<config>
+    <sections>
+        <customer>
+            <groups>
+                <create_account>
+                    <fields>
+                        <show_address_field translate="label" module="mpshowaddressfield">
+                            <label>Show Address Fields in Register Form</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>999</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </show_address_field>
+                    </fields>
+                </create_account>
+            </groups>
+        </customer>
+    </sections>
+</config>

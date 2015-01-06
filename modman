@@ -1,0 +1,4 @@
+src/app/code/community/MageProfis/ShowAddressField                      app/code/community/MageProfis/ShowAddressField
+src/app/etc/modules/MageProfis_ShowAddressField.xml                     app/etc/modules/MageProfis_ShowAddressField.xml
+src/app/locale/de_DE/MageProfis_ShowAddressField.csv                    app/locale/de_DE/MageProfis_ShowAddressField.csv
+src/app/locale/en_US/MageProfis_ShowAddressField.csv                    app/locale/en_US/MageProfis_ShowAddressField.csv

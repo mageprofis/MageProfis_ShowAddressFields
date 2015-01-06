@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+  * MageProfis_ShowAddressField
+  *
+  * @category  MageProfis
+  * @package   MageProfis_ShowAddressField
+  * @author    Mathis Klooss <mathis.klooss@mage-profis.de>
+  * @copyright 2015 Loewenstark Web-Solution GmbH (http://www.mage-profis.de). All rights served.
+  */
+//-->
+<config>
+    <modules>
+        <MageProfis_ShowAddressField>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Customer />
+            </depends>
+        </MageProfis_ShowAddressField>
+    </modules>
+</config>
