@@ -9,10 +9,10 @@
   */
 class MageProfis_ShowAddressField_Model_Observer
 {
-    
+
     const XML_PATH_CUSTOMER_SHOWADDRESSFIELD = 'customer/create_account/show_address_field';
     const VARIEN_OBJECT_SHOWADDRESSFIELD     = 'show_address_fields';
-    
+
     /**
      * @mageEvent core_block_abstract_prepare_layout_before
      * @param Varien_Object $event
@@ -22,10 +22,8 @@ class MageProfis_ShowAddressField_Model_Observer
     {
         $block = $event->getBlock();
         /* @var $block Mage_Customer_Block_Form_Register */
-        if($block instanceof Mage_Customer_Block_Form_Register)
-        {
-            if(Mage::getStoreConfigFlag(self::XML_PATH_CUSTOMER_SHOWADDRESSFIELD))
-            {
+        if ($block instanceof Mage_Customer_Block_Form_Register) {
+            if (Mage::getStoreConfigFlag(self::XML_PATH_CUSTOMER_SHOWADDRESSFIELD)) {
                 $block->setData(self::VARIEN_OBJECT_SHOWADDRESSFIELD, true);
             } else {
                 $block->setData(self::VARIEN_OBJECT_SHOWADDRESSFIELD, false);
