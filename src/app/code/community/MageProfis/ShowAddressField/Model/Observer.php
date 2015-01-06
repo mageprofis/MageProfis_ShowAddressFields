@@ -26,9 +26,9 @@ class MageProfis_ShowAddressField_Model_Observer
         {
             if(Mage::getStoreConfigFlag(self::XML_PATH_CUSTOMER_SHOWADDRESSFIELD))
             {
-                $block->setData(self::VARIEN_OBJECT_SHOWADDRESSFIELD, true):
+                $block->setData(self::VARIEN_OBJECT_SHOWADDRESSFIELD, true);
             } else {
-                $block->setData(self::VARIEN_OBJECT_SHOWADDRESSFIELD, false):
+                $block->setData(self::VARIEN_OBJECT_SHOWADDRESSFIELD, false);
             }
         }
     }
