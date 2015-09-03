@@ -9,7 +9,6 @@ Facts
 
 Description
 ------------
-
 Ever wanted your customers to register with more than an email and password combination? Magento has you covered, well, almost. This module adds a configuration option in the Magento backend and all you have to do is flick a switch and your customers can enter their address data on registration.
 
 Requirements
@@ -22,7 +21,9 @@ Compatibility
 
 Installation
 -----------------------
-Upload all files to in your Magento Root
+You can use this module the old-fashioned way and upload all files from the `./src` folder to your webroot (where your Magento installation sits).
+
+Or you can be smart and use modman. And since you're smart I won't have to explain what [modman](https://github.com/colinmollenhour/modman) is or how you can use it, you already know.
 
 Support
 -------
