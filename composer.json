@@ -1,0 +1,12 @@
+{
+    "name": "Magento/MageProfis_ShowAddressFields",
+    "type": "magento-module",
+    "license": "GNU General Public License, version 3 (GPLv3)",
+    "homepage": "https://github.com/Magento/MageProfis_ShowAddressFields",
+    "description": "Add backend option to display address fields during customer registration process",
+    "authors": [
+        {
+            "name": "Mathis Klooß"
+        }
+    ]
+}
